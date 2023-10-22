@@ -6,11 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class TelePorterScript : MonoBehaviour
 {
+    private void Start()
+    {
+        
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name.Contains("Player"))
+        if (collision.gameObject.tag.Contains("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            nextScene();
         }
+    }
+
+    void nextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

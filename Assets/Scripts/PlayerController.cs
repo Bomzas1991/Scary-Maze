@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Vector3 mousePos;
+    Vector3 mousePos;
 
     private void Start()
     {

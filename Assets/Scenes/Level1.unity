@@ -525,6 +525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FadeOutSquare
       objectReference: {fileID: 0}
+    - target: {fileID: 3794390130329793903, guid: 031ed607374984b44af000de0a892d2c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8803673032036639682, guid: 031ed607374984b44af000de0a892d2c, type: 3}
       propertyPath: m_RootOrder
       value: 5
